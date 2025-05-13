@@ -13,7 +13,7 @@ struct MainView: View {
     var body: some View {
         TabView {
             Tab("Timer", systemImage: "timer") {
-                TimerView(remainingSeconds: 60)
+                TimerView(remainingSeconds: 0)
             }
             
             Tab("Settings", systemImage: "gear") {
